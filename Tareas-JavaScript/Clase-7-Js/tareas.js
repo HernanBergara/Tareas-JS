@@ -11,3 +11,7 @@ function imprimir() {
 }
 
 imprimir();
+
+
+//El orden seria 1,4,3,2. El hecho de tener un setTimeout hace que vayan a lo ultimo
+//Por eso primero se muestran los console.log y despues los setTimeout ordenados depende el tiempo que se les haya asignado
